@@ -1,7 +1,8 @@
 <h1 style="text-align: center;">Debugging IOps</h1>
 
-So, you've just found an excellent application for _TFHE_ and decided to use the _HPU_ to accelerate
-it, however, using the high level _TFHE-rs_ API you don't get the performance you want. As with a
++So, you've just found an excellent application for _TFHE_ and decided to use the _HPU_ to accelerate it, 
++however, using the high level _TFHE-rs_ API you don't get the performance you want.
+
 normal CPU, you can lower to the instruction set level (aka. assembly level) to try and speed up
 your specific use case. The act of doing that is what we call writing a specialized IOp. To do that,
 you need to know more about the _HPU_ architecture and its instruction set [here](./dop.md). This page
